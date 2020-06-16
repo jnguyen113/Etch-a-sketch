@@ -1,1 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+
+.container{
+    border: 10px solid red;
+    display: grid;
+
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+button:mouseover{
+    background-color: grey;
+}
+.grid-item{
+    padding: 1px;
+    text-align: center;
+}
 
